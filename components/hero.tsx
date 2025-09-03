@@ -12,7 +12,7 @@ const Hero = () => {
             Coming Soon
           </Badge>
           <h1 className="mt-6 max-w-[20ch] text-3xl xs:text-4xl sm:text-5xl lg:text-[2.75rem] xl:text-5xl font-bold leading-[1.2]! tracking-tight">
-            RecordWise
+            Recordwise
           </h1>
           <p className="mt-6 max-w-[60ch] xs:text-lg">
             The smartest AI meeting & note assistant built for knowledge workers, professional salespeople, podcasters, and researchers.
