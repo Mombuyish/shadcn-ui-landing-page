@@ -9,45 +9,43 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Beautiful Shadcn UI Landing Page",
+  title: "Recordwise",
   description:
-    "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+    "The Smartest AI Meeting & Note Assistant. Recordwise built for knowledge workers, professional salespeople, podcasters, and researchers.",
   keywords: [
-    "Shadcn UI Landing Page",
-    "Shadcn UI Blocks",
-    "Shadcn UI",
-    "Landing Page",
-    "Tailwind CSS Landing Page",
-    "Beautiful Shadcn UI Landing Page",
-    "Next.js 15 Landing Page",
-    "Simple Landing Page",
-    "Landing Page Template",
-    "Landing Page Design",
+    "Recording",
+    "Meeting",
+    "Note",
+    "Recordwise",
+    "Minutes",
+    "AI",
+    "Summarize",
+    "Transcription",
   ],
   openGraph: {
     type: "website",
-    siteName: "Shadcn Landing Page",
+    siteName: "Recordwise",
     locale: "en_US",
-    url: "https://shadcn-landing-page.vercel.app",
-    title: "Shadcn Landing Page",
+    url: "https://recordwise.ai",
+    title: "Recordwise",
     description:
-      "A beautiful landing page built with Shadcn UI, Next.js 15, Tailwind CSS, and Shadcn UI Blocks.",
+      "The Smartest AI Meeting & Note Assistant. Recordwise built for knowledge workers, professional salespeople, podcasters, and researchers.",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Shadcn UI Landing Page Preview",
+        alt: "Recordwise",
       },
     ],
   },
   authors: [
     {
-      name: "Akash Moradiya",
-      url: "https://shadcnui-blocks.com",
+      name: "Yish",
+      url: "https://x.com/yishlai",
     },
   ],
-  creator: "Akash Moradiya",
+  creator: "Yish",
   icons: [
     {
       rel: "icon",
