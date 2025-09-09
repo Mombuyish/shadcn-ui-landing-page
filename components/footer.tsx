@@ -4,6 +4,7 @@ import {
   GithubIcon,
   TwitchIcon,
   TwitterIcon,
+  XIcon,
 } from "lucide-react";
 import Link from "next/link";
 
@@ -99,28 +100,8 @@ const footerSections = [
     title: "Social",
     links: [
       {
-        title: "Twitter",
-        href: "#",
-      },
-      {
-        title: "LinkedIn",
-        href: "#",
-      },
-      {
-        title: "Facebook",
-        href: "#",
-      },
-      {
-        title: "GitHub",
-        href: "#",
-      },
-      {
-        title: "AngelList",
-        href: "#",
-      },
-      {
-        title: "Dribbble",
-        href: "#",
+        title: "X",
+        href: "https://x.com/RecordwiseAI",
       },
     ],
   },
@@ -180,8 +161,7 @@ const Footer = () => {
           </svg>
 
           <p className="mt-4 text-muted-foreground">
-            Design amazing digital experiences that create more happy in the
-            world.
+            The Smartest AI Meeting & Note Assistant
           </p>
         </div>
 
@@ -215,17 +195,8 @@ const Footer = () => {
         </span>
 
         <div className="flex items-center gap-5 text-muted-foreground">
-          <Link href="#" target="_blank">
-            <TwitterIcon className="h-5 w-5" />
-          </Link>
-          <Link href="#" target="_blank">
-            <DribbbleIcon className="h-5 w-5" />
-          </Link>
-          <Link href="#" target="_blank">
-            <TwitchIcon className="h-5 w-5" />
-          </Link>
-          <Link href="#" target="_blank">
-            <GithubIcon className="h-5 w-5" />
+          <Link href="https://x.com/RecordwiseAI" target="_blank">
+            <XIcon className="h-5 w-5" />
           </Link>
         </div>
       </div>
